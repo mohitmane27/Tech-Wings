@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechFest 2025</title>
+  <style>
+    /* Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+
+    header {
+      background: #0a192f;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #112240;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .about, .events, .contact {
+      margin-bottom: 40px;
+    }
+
+    .events-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .event-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .event-card h3 {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #0a192f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .events-grid {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        font-size: 0.95rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 40px 10px;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>TechFest 2025</h1>
+    <p>The Ultimate Technical Festival of Innovation & Ideas</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section class="about container" id="about">
+    <h2>About TechFest</h2>
+    <p>
+      TechFest 2025 is a celebration of technology, creativity, and brilliance, hosted by XYZ Institute.
+      Join us for an exciting lineup of coding competitions, tech talks, robotics, AI expos, and more!
+    </p>
+  </section>
+
+  <!-- Events Section -->
+  <section class="events container" id="events">
+    <h2>Event Highlights</h2>
+    <div class="events-grid">
+      <div class="event-card">
+        <h3>Hackathon</h3>
+        <p>Code for 24 hours and build something amazing! Prizes worth $5000!</p>
+      </div>
+      <div class="event-card">
+        <h3>Robotics Challenge</h3>
+        <p>Battle bots, line followers, and AI machines in action!</p>
+      </div>
+      <div class="event-card">
+        <h3>Guest Talks</h3>
+        <p>Hear from industry leaders in AI, Cybersecurity, and Web3.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@techfest2025.com</p>
+    <p>Phone: +1 234-567-890</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 TechFest. All rights reserved.
+  </footer>
+
+</body>
+</html>
